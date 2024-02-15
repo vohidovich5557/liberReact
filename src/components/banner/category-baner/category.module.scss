@@ -1,0 +1,24 @@
+.box {
+    max-width: 200px;
+    width: 100%;
+    height: 164px;
+}
+
+.box__img {
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.box__title {
+    color: rgb(255, 255, 255);
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    transform: translateY(135px);
+}

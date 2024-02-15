@@ -1,0 +1,15 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1005_5753">
+			<rect id="right-chevron (1) 1" width="16.000000" height="16.000000" transform="translate(8.000000 8.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<circle id="background" cx="16.000000" cy="16.000000" r="16.000000" fill="#3F51B5" fill-opacity="1.000000"/>
+	<rect id="right-chevron (1) 1" width="16.000000" height="16.000000" transform="translate(8.000000 8.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1005_5753)">
+		<path id="Vector" d="M12.8335 16.4402L18.1668 22.4402C18.2836 22.5725 18.4482 22.6533 18.6244 22.6646C18.8007 22.6758 18.9741 22.6167 19.1068 22.5C19.2393 22.3833 19.3199 22.2188 19.3312 22.0425C19.3425 21.8662 19.2833 21.6929 19.1668 21.5601L14.2268 16L19.1668 10.4402C19.2745 10.3064 19.3265 10.136 19.3118 9.96484C19.2972 9.7937 19.217 9.63501 19.088 9.52148C18.959 9.40796 18.7913 9.34863 18.6196 9.35571C18.4481 9.36304 18.2858 9.43628 18.1668 9.56006L12.8335 15.5601C12.7266 15.6816 12.6677 15.8381 12.6677 16C12.6677 16.1621 12.7266 16.3184 12.8335 16.4402Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

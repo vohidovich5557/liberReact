@@ -1,0 +1,75 @@
+.card__box {
+    max-width: 239px;
+    width: 100%;
+    height: 450px;
+}
+
+.box__img {
+    max-width: 239px;
+    width: 100%;
+    height: 336px;
+}
+
+.box__title {
+    color: rgb(17, 20, 45);
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box__text {
+    color: rgb(63, 81, 181);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.img__star {
+    width: 24px;
+    height: 24px;
+}
+
+.info__star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info__rate {
+    color: rgb(255, 127, 77);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.info__access{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.img__head{
+    width: 24px;
+    height: 24px;
+}
+
+.img__book{
+    width: 24px;
+    height: 24px;
+}
+
+.bottom__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

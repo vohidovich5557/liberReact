@@ -1,0 +1,39 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ico {
+    width: 32px;
+    height: 32px;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(63, 81, 181);
+    border-radius: 50%;
+}
+
+.dots {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(238, 244, 255);
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider__box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1195px;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
