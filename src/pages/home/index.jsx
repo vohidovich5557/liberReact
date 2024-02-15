@@ -25,7 +25,7 @@ export const Home = () => {
             <MainLayout>
                 <section className={home.hero}>
                     <div className={home.container}>
-                        <div className={home.slider}>
+                        <div className={home.slider} data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                             <img src={girlImg} alt="girlImg" className={home.girl_img} />
                             <h2 className={home.slider__title}>Кўп ўқилаётганлар</h2>
                             <div className={home.banner_box}>
@@ -40,7 +40,7 @@ export const Home = () => {
                                 <img src={iconNext} alt="iconNext" className={home.icon} />
                             </div>
                         </div>
-                        <div className={home.subs_box}>
+                        <div className={home.subs_box} data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
                             <img src={buttonBg} alt="button_bg" className={home.subs__bg} />
                             <h2 className={home.subs__title}>Китоб ўқишни ёқтирасизми?</h2>
                             <p className={home.subs__text}>Унда пулингизни тежаш учун ўзингиз йоқтирган рукнга обуна бўлинг</p>

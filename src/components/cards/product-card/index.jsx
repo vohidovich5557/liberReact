@@ -11,7 +11,7 @@ export const ProductCard = ({img, title, text, star, rate }) => {
 
     return (
         <>
-         <div className={Procard.card__box} data-aos="zoom-in">
+         <div className={Procard.card__box} data-aos="fade-up" data-aos-duration="1000">
             <img src={img} alt="img" className={Procard.box__img} />
             <h2 className={Procard.box__title}>{title}</h2>
             <p className={Procard.box__text}>{text}</p>

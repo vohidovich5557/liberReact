@@ -14,7 +14,7 @@ export const ServiceCard = ({ img, id, title, text }) => {
 
     return (
         <>
-            <div className={service.container} key={id} data-aos="fade-up">
+            <div className={service.container} key={id} data-aos="fade-up" data-aos-duration="2000">
                 <img src={img} alt="img" className={service.card__img} />
                 <div className={service.info}>
                     <h2 className={service.info__title}>{title}</h2>
