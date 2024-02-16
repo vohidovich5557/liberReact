@@ -116,6 +116,7 @@ export const categoryData = [
 
 export const productData = [
     {
+        id: 1,
         img: productImg1,
         title: "1984",
         text: "SIYOSAT, FANTASTIKA",
@@ -124,6 +125,7 @@ export const productData = [
     },
 
     {
+        id: 2,
         img: productImg2,
         title: "Rich dad poor dad",
         text: "SIYOSAT, FANTASTIKA",
@@ -132,6 +134,7 @@ export const productData = [
     },
 
     {
+        id: 3,
         img: productImg3,
         title: "Код 8",
         text: "SIYOSAT, FANTASTIKA",
@@ -140,6 +143,7 @@ export const productData = [
     },
 
     {
+        id: 4,
         img: productImg5,
         title: "Даниел КИЗ",
         text: "SIYOSAT, FANTASTIKA",
@@ -148,6 +152,7 @@ export const productData = [
     },
 
     {
+        id: 5,
         img: productImg6,
         title: "Бепарволикнинг но...",
         text: "SIYOSAT, FANTASTIKA",
@@ -158,6 +163,7 @@ export const productData = [
 
 export const bookData = [
     {
+        bookid: 6,
         img: book1,
         title: "1984",
         text: "SIYOSAT, FANTASTIKA",
@@ -166,6 +172,7 @@ export const bookData = [
     },
 
     {
+        bookid: 7,
         img: book2,
         title: "Rich dad poor dad",
         text: "SIYOSAT, FANTASTIKA",
@@ -174,6 +181,7 @@ export const bookData = [
     },
 
     {
+        bookid: 8,
         img: book3,
         title: "Код 8",
         text: "SIYOSAT, FANTASTIKA",
@@ -182,6 +190,7 @@ export const bookData = [
     },
 
     {
+        bookid: 9,
         img: book4,
         title: "Даниел КИЗ",
         text: "SIYOSAT, FANTASTIKA",
@@ -190,6 +199,7 @@ export const bookData = [
     },
 
     {
+        bookid: 10,
         img: book5,
         title: "Бепарволикнинг но...",
         text: "SIYOSAT, FANTASTIKA",

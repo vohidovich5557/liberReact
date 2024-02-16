@@ -1,12 +1,13 @@
 import React from "react";
 import { Header } from "./header";
 import { Footer } from "./footer";
+import { Outlet } from "react-router-dom";
 
 
 
 
 
-export const MainLayout = ({ children }) => {
+export const MainLayout = () => {
 
     return (
         <>
@@ -15,7 +16,9 @@ export const MainLayout = ({ children }) => {
                 <header>
                     <Header />
                 </header>
-                <main>{children}</main>
+                <main>
+                    <Outlet />
+                </main>
             </div>
             </div>
             <footer>
