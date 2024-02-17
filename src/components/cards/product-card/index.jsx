@@ -2,8 +2,7 @@ import React from "react";
 import Procard from './productCard.module.scss'
 import headPhone from '../../../assets/headPhone.svg'
 import book from '../../../assets/book.svg'
-import Aos from 'aos'
-import "aos/dist/aos"
+
 
 
 export const ProductCard = ({img, title, text, star, rate }) => {

@@ -97,7 +97,7 @@ export const Home = () => {
             <section className={home.products}>
                 <ProductBanner2>
                     {bookData.map((item) => (
-                        <Link key={item.bookid} to={`/productBanner/${item.bookid}`}>
+                        <Link key={item.bookid} to={`/productBanner2/${item.bookid}`}>
                             <ProductCard
                                 img={item.img}
                                 title={item.title}
