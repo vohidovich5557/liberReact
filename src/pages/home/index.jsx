@@ -1,5 +1,4 @@
 import React from "react";
-import { MainLayout } from "../../layout/main-layout";
 import home from './home.module.scss'
 import girlImg from '../../assets/girl.svg'
 import { heroData } from "../../data/home";
@@ -14,11 +13,9 @@ import { categoryData } from "../../data/home";
 import { Category } from "../../components/banner/category-baner";
 import arrowBack from '../../assets/arrow_back.svg'
 import { ProductBanner } from "../../components/banner/product-banner";
-import { productData } from "../../data/home";
 import { ProductCard } from "../../components/cards/product-card";
-import { bookData } from "../../data/home";
 import { Link } from "react-router-dom";
-import { ProductBanner2 } from "../../components/banner/product-baner2";
+import { data } from "../../data/home";
 
 export const Home = () => {
 
@@ -81,8 +78,8 @@ export const Home = () => {
             </section>
             <section className={home.products}>
                 <ProductBanner>
-                    {productData.map((item) => (
-                        <Link key={item.id} to={`/productBanner/${item.id}`}>
+                    {data.productData.map((item) => (
+                        <Link key={item.id} to={`/product/${item.id}/productData`}>
                             <ProductCard
                                 img={item.img}
                                 title={item.title}
@@ -95,9 +92,9 @@ export const Home = () => {
                 </ProductBanner>
             </section>
             <section className={home.products}>
-                <ProductBanner2>
-                    {bookData.map((item) => (
-                        <Link key={item.bookid} to={`/productBanner2/${item.bookid}`}>
+                <ProductBanner>
+                    {data.productData2.map((item) => (
+                        <Link key={item.id} to={`/product/${item.id}/productData2`}>
                             <ProductCard
                                 img={item.img}
                                 title={item.title}
@@ -107,7 +104,7 @@ export const Home = () => {
                             />
                         </Link>
                     ))}
-                </ProductBanner2>
+                </ProductBanner>
             </section>
         </>
     )

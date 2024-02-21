@@ -1,6 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { productData } from "../../data/home";
+import { Link, useParams } from "react-router-dom";
+import { data } from "../../data/home";
 import detail from './detail.module.scss'
 import headPhone from '../../assets/headPhone.svg'
 import book from '../../assets/book.svg'
@@ -9,6 +9,7 @@ import chat from '../../assets/chat.svg'
 import car from '../../assets/car.svg'
 import blackHead from '../../assets/blackHead.svg'
 import blackBook from '../../assets/blackbook.svg'
+import { useScrollTop } from "../../hooks/scrollup/useScrollup";
 
 export const ProductDetail = () => {
 
@@ -16,9 +17,10 @@ export const ProductDetail = () => {
 
     console.log(params);
 
-    const result = productData.find((item) => item.id === Number(params.productId))
+    const result = data[params.slug].find((item) => item.id == params.id);
 
-    console.log(result);
+    useScrollTop();
+
 
     return (
         <>
@@ -124,7 +126,8 @@ export const ProductDetail = () => {
                 <div className={detail.cure__part2}>
                     <h2 className={detail.part2__title}>Ўхшаш китоблар</h2>
                     <div className={detail.part2__box}>
-                        {productData.map((item) => (
+                        {data[params.slug].map((item) => (
+                            <Link to={`/product/${item.id}/${params.slug}`}>
                             <div className={detail.part2__bookbox}>
                                 <img src={item.img} alt="img_book" className={detail.bookbox__img} />
                                 <div className={detail.bookbox_info}>
@@ -137,6 +140,7 @@ export const ProductDetail = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
                         ))}
                         <button className={detail.part2__btn}>Кўпроқ</button>
                     </div>

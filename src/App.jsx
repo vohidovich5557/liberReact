@@ -1,9 +1,9 @@
 import { Home } from "./pages/home"
 import { Routes, Route } from "react-router-dom"
-import { BookDetail } from "./pages/book-details"
 import { ProductDetail } from "./pages/product-details"
-import { ProductBanner } from "./components/banner/product-banner"
 import { MainLayout } from "./layout/main-layout"
+import { LogIn } from "./pages/loginpage"
+import { Profile } from "./pages/profile-page"
 
 function App() {
 
@@ -12,14 +12,15 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<MainLayout />}>
-        <Route  index element={<Home />}/>
-        <Route path="prodcutBanner" element={<ProductBanner />}/>
-        <Route  path="productBanner/:productId" element={<ProductDetail />}/>
-        <Route  path="productBanner2/:bookId" element={<BookDetail />}/>
+          <Route index element={<Home />} />
+          <Route path="product/:id/:slug" element={<ProductDetail />} />
+          <Route path="logIn/profile/:id" element={<Profile />} />
         </Route>
+        <Route path="logIn" element={<LogIn />} />
       </Routes>
-
-
+      
+    
+      
     </>
   )
 }

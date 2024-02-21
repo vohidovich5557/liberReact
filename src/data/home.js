@@ -114,96 +114,99 @@ export const categoryData = [
     },
 ];
 
-export const productData = [
-    {
-        id: 1,
-        img: productImg1,
-        title: "1984",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
 
-    {
-        id: 2,
-        img: productImg2,
-        title: "Rich dad poor dad",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        id: 3,
-        img: productImg3,
-        title: "Код 8",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        id: 4,
-        img: productImg5,
-        title: "Даниел КИЗ",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        id: 5,
-        img: productImg6,
-        title: "Бепарволикнинг но...",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-];
-
-export const bookData = [
-    {
-        bookid: 6,
-        img: book1,
-        title: "1984",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        bookid: 7,
-        img: book2,
-        title: "Rich dad poor dad",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        bookid: 8,
-        img: book3,
-        title: "Код 8",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        bookid: 9,
-        img: book4,
-        title: "Даниел КИЗ",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-
-    {
-        bookid: 10,
-        img: book5,
-        title: "Бепарволикнинг но...",
-        text: "SIYOSAT, FANTASTIKA",
-        star: productStar,
-        starText: "4.7",
-    },
-];
+export const data  = {
+    productData2: [
+        {
+            id: 6,
+            img: book1,
+            title: "1984",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 7,
+            img: book2,
+            title: "Rich dad poor dad",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 8,
+            img: book3,
+            title: "Код 8",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 9,
+            img: book4,
+            title: "Даниел КИЗ",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 10,
+            img: book5,
+            title: "Бепарволикнинг но...",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    ],
+    
+    productData: [
+        {
+            id: 1,
+            img: productImg1,
+            title: "1984",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 2,
+            img: productImg2,
+            title: "Rich dad poor dad",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 3,
+            img: productImg3,
+            title: "Код 8",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 4,
+            img: productImg5,
+            title: "Даниел КИЗ",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    
+        {
+            id: 5,
+            img: productImg6,
+            title: "Бепарволикнинг но...",
+            text: "SIYOSAT, FANTASTIKA",
+            star: productStar,
+            starText: "4.7",
+        },
+    ],
+};
