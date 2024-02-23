@@ -1,0 +1,99 @@
+.container {
+    width: 966px;
+    height: 463px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgb(255, 255, 255);
+    padding-left: 32px;
+    margin-bottom: 312px;
+}
+
+.title {
+    color: rgb(17, 20, 45);
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 59px;
+}
+
+.user__img {
+    width: 56px;
+    height: 56px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+.text {
+    /* Subtitle 1 */
+    color: rgb(63, 81, 181);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 65px;
+}
+
+.label__text {
+    /* Subtitle 2 */
+    color: rgb(36, 36, 36);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+
+.name {
+    width: 343px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.name::placeholder {
+    /* Body 2 */
+    color: rgb(154, 154, 154);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.btn {
+    width: 343px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 14px;
+    background-color: rgb(63, 81, 181);
+    color: rgb(255, 255, 255);
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border: none;
+}
